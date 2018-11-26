@@ -1,0 +1,30 @@
+[debug] [2018-10-06T13:02:55.816Z] ----------------------------------------------------------------------
+[debug] [2018-10-06T13:02:55.820Z] Command:       /usr/local/Cellar/node/10.11.0/bin/node /usr/local/bin/firebase functions:shell
+[debug] [2018-10-06T13:02:55.820Z] CLI Version:   5.0.0
+[debug] [2018-10-06T13:02:55.820Z] Platform:      darwin
+[debug] [2018-10-06T13:02:55.820Z] Node Version:  v10.11.0
+[debug] [2018-10-06T13:02:55.821Z] Time:          Sat Oct 06 2018 15:02:55 GMT+0200 (Central European Summer Time)
+[debug] [2018-10-06T13:02:55.821Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-10-06T13:02:55.835Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-10-06T13:02:55.836Z] > authorizing via signed-in user
+[debug] [2018-10-06T13:02:55.836Z] [iam] checking project vulog-comodule-poc for permissions ["firebase.projects.get"]
+[debug] [2018-10-06T13:02:55.837Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-10-06T13:02:55.837Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-10-06T13:02:56.040Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-06T13:02:56.048Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/vulog-comodule-poc:testIamPermissions  
+
+[debug] [2018-10-06T13:02:56.881Z] <<< HTTP RESPONSE 200
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-10-06T13:02:57.775Z] Fetching environment
+[debug] [2018-10-06T13:02:57.779Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/vulog-comodule-poc  
+ 
+[debug] [2018-10-06T13:02:58.648Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-06T13:02:58.649Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/969764369705:getServerAppConfig  
+ 
+[debug] [2018-10-06T13:02:59.052Z] <<< HTTP RESPONSE 200
+[debug] [2018-10-06T13:02:59.052Z] Starting @google-cloud/functions-emulator
+[debug] [2018-10-06T13:03:00.617Z] Parsing function triggers
+[info] ✔  functions: config
+[info] ✔  functions: api
